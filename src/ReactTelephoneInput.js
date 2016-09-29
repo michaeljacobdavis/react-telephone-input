@@ -81,7 +81,8 @@ function isNumberValid(inputNumber) {
         onChange: React.PropTypes.func,
         onEnterKeyPress: React.PropTypes.func,
         onBlur: React.PropTypes.func,
-        onFocus: React.PropTypes.func
+        onFocus: React.PropTypes.func,
+        disabled: React.PropTypes.bool
     },
     getDefaultProps() {
         return {
