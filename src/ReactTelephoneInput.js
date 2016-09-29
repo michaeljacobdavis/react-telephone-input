@@ -518,6 +518,7 @@ function isNumberValid(inputNumber) {
         return (
             <div className={classNames('react-tel-input', this.props.classNames)}>
                 <input
+                    {...this.props}
                     onChange={this.handleInput}
                     onClick={this.handleInputClick}
                     onFocus={this.handleInputFocus}
